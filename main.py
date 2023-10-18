@@ -4,7 +4,6 @@ import calculadora
 
 while True:
 
-
 # Apresentação
     print('\n\t\t\t -- Calculadora Simples --')
 
@@ -17,7 +16,6 @@ while True:
 
     # Ler a opção de escolha do usuário
     op = int(input('\n\tOpção: '))
-
     if op == 1:
         print('\nSoma\n')
          # Entrada
@@ -34,7 +32,6 @@ while True:
         # Entrada
         v1 = int(input('Informe o valor 1: '))
         v2 = int(input('Informe o valor 2: '))
-
         total = calculadora.sub(v1, v2)
         print(f'A subtração desses números será {total}')
 
@@ -44,13 +41,11 @@ while True:
         # Entrada
         v1 = int(input('Informe o valor 1: '))
         v2 = int(input('Informe o valor 2: '))
-
         total = calculadora.mult(v1, v2)
         print(f'A Multiplicação desses números será {total}')
 
     elif op == 4:
         print('\nDivisão\n')
-
 
         # Entrada
         v1 = int(input('Informe o valor 1: '))
@@ -58,7 +53,6 @@ while True:
 
         if v1 == 0 and v2 == 0:
             print('Não é possível dividir por 0')
-
         else:
             total = calculadora.div(v1, v2)
             print(f'A Divisão desses números será {total}')

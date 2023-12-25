@@ -61,4 +61,4 @@ while True:
         print('Até mais')
         break
     else:
-        print(f'Opçao {op} incorreta\n')
+        print(f'Opçao {op} inválida\n')
